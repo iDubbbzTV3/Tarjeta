@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tarjeta</string>
+    <string name="bruce_randall_montenegro_cotto">Bruce Randall Montenegro Cotto</string>
+    <string name="estudiante_de_ingenieria_informatica">Estudiante de ingenieria informatica</string>
+    <string name="github">github</string>
+    <string name="correo">correo</string>
+    <string name="twitter">Twitter</string>
+    <string name="celular">Celular</string>
+    <string name="powered_by_android_studio">Powered By Android Studio</string>
+</resources>
