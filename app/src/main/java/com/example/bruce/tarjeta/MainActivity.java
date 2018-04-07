@@ -51,4 +51,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(mailClient);
     }
 
+    public void shareImage(View v){
+        Uri imageuri = Uri.parse("android.resource://com.example.bruce.tarjeta/drawable"+R.drawable.idubbbz);
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("intent/*");
+        intent.putExtra(Intent.EXTRA_STREAM, imageuri);
+    }
+
 }
